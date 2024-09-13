@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c1a51d6-0b95-4d78-af29-30a296aafc00" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2(BT nhap xuat)/BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/64132994-JavaPrograming/64132994-JavaPrograming/ReadME.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.BMI.executor": "Run",
     "Application.EvenandOdd.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",

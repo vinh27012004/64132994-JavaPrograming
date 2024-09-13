@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1a51d6-0b95-4d78-af29-30a296aafc00" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Project1/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,9 +49,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.EvenandOdd.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/CODE/JAVA/64132994-JavaPrograming",
     "project.structure.last.edited": "Modules",

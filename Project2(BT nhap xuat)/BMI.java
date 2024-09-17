@@ -3,14 +3,22 @@ import java.util.Scanner;
 
 public class BMI {
     public static void main(String[] args) {
-        double weight , height, bmi;
+        double weight = 0 , height = 0, bmi;
 
         Scanner banphimScanner = new Scanner(System.in);
 
-        height  = banphimScanner.nextDouble();
-        height = height / 100;
-
-        weight  = banphimScanner.nextDouble();
+        
+        try {
+            System.out.println("Nhap chieu cao (cm): ");
+            height  = banphimScanner.nextDouble();
+            height = height / 100;
+            System.out.println("Nhap can nang (kg): ");
+            weight  = banphimScanner.nextDouble();
+            bmi = weight / (height*height);
+            System.out.println("Chi so BMI cua ban la: " + bmi);
+        } catch (Exception e) {
+            System.out.println("Nhap sai, vui long nhap lai");
+        }
 
         bmi = weight / (height*height);
         

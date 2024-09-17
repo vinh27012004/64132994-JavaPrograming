@@ -38,3 +38,12 @@ public class BMI {
         }
     }
 }
+
+// Constructor là gì ?
+// Constructor là một phương thức đặc biệt trong Java, được sử dụng để khởi tạo đối tượng.
+// Dùng để làm gì ?
+// Constructor được sử dụng để khởi tạo đối tượng. Khi một đối tượng được tạo, ít nhất một constructor sẽ được gọi.
+// Còn dùng để làm gì nữa không ?
+// Constructor cũng được sử dụng để khởi tạo giá trị mặc định cho đối tượng.
+// Gitter và Setter là gì ?
+

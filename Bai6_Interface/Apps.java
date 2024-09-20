@@ -15,5 +15,5 @@ public class Apps {
 
 // interface Ianimal là gì với class cat và dog
 // interface Ianimal là interface chứa phương thức sound() được implement bởi các class Dog và Cat
-// class Dog và Cat implement interface Ianimal để thực hiện phương thức sound() của interface Ianimal
+// class Dog và Cat implement interface Ianimal để thực hiện phương thức sound() của interface Ianimalx`
 

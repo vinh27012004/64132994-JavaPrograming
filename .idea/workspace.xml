@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1a51d6-0b95-4d78-af29-30a296aafc00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai5_OPP/Bai5_OPP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai5_OPP/src/Citizen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/64132994-JavaPrograming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/64132994-JavaPrograming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2(BT nhap xuat)/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2(BT nhap xuat)/BMI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/64132994-JavaPrograming/BMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/64132994-JavaPrograming/BMI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai6_Interface/Apps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bai6_Interface/Apps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

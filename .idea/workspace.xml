@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1a51d6-0b95-4d78-af29-30a296aafc00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ArrayList/ArrayList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN1/BTVN1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/Dictionary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dictionary/src/DictionaryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input-OutputFIle/Input-OutputFIle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Input-OutputFIle/src/App1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/src/DictionaryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/src/DictionaryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dictionary/DictionaryApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dictionary/DictionaryApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;vinh27012004&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vinh27012004/64132994-JavaPrograming.git&quot;,
@@ -49,7 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.APP.executor": "Run",
     "Application.App.executor": "Run",
+    "Application.App1.executor": "Run",
+    "Application.Apppp.executor": "Run",
     "Application.BMI.executor": "Run",
     "Application.Citizenmain.executor": "Run",
     "Application.DictionaryApp.executor": "Run",
@@ -64,7 +68,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.language.Kotlin"
   }
 }]]></component>
   <component name="RunManager">

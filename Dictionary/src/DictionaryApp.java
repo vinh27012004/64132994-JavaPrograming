@@ -3,9 +3,9 @@ import java.util.Map;
 import javax.swing.*;
 
 public class DictionaryApp extends JFrame {
-  private JTextField inputField;
-  private JLabel outputLabel;
-  private Map<String, String> dictionary = new HashMap<>();
+  private final JTextField inputField;
+  private final JLabel outputLabel;
+  private final Map<String, String> dictionary = new HashMap<>();
 
   public DictionaryApp() {
     // Khởi tạo giao diện

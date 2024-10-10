@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c1a51d6-0b95-4d78-af29-30a296aafc00" name="Changes" comment="">
+    <list default="true" id="3c1a51d6-0b95-4d78-af29-30a296aafc00" name="Changes" comment="Input-OutputFile">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input-OutputFIle/Input-OutputFIle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Input-OutputFIle/src/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CharacterStreamDemo/CharacterStreamDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CharacterStreamDemo/src/app1/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CharacterStreamDemo/src/app2/App2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dictionary/src/DictionaryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/src/DictionaryApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project1/MainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project1/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dictionary/DictionaryApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dictionary/DictionaryApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vinh27012004/64132994-JavaPrograming.git&quot;,
     &quot;accountId&quot;: &quot;86a222b8-8304-47a5-8c8a-bf76dcc9f026&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -52,7 +51,8 @@
   "keyToString": {
     "Application.APP.executor": "Run",
     "Application.App.executor": "Run",
-    "Application.App1.executor": "Run",
+    "Application.App1.executor": "Coverage",
+    "Application.App2.executor": "Run",
     "Application.Apppp.executor": "Run",
     "Application.BMI.executor": "Run",
     "Application.Citizenmain.executor": "Run",
@@ -71,8 +71,22 @@
     "settings.editor.selected.configurable": "preferences.language.Kotlin"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\JAVA\64132994-JavaPrograming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App1">
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app1.App1" />
+      <module name="CharacterStreamDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Citizenmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Citizenmain" />
       <module name="Bai5_OPP" />
       <method v="2">
@@ -80,14 +94,22 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Bai5_OPP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.App1" />
+      <item itemvalue="Application.Citizenmain" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App1" />
         <item itemvalue="Application.Citizenmain" />
         <item itemvalue="Application.Main" />
       </list>
@@ -102,6 +124,15 @@
       <option name="presentableId" value="Default" />
       <updated>1726211842270</updated>
     </task>
+    <task id="LOCAL-00001" summary="Input-OutputFile">
+      <option name="closed" value="true" />
+      <created>1727770120431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727770120431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Input-OutputFile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input-OutputFile" />
   </component>
 </project>

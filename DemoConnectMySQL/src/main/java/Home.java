@@ -23,5 +23,4 @@ public class Home {
       System.out.print(id + " | " + tenSP + " | " + giaSP + " | " + moTa + "\n");
     }
   }
-
 }

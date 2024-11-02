@@ -1,0 +1,10 @@
+BMI: 23,15
+BMI: 20,20
+BMI: 18,73
+BMI: 12,50
+Bytes: 100 -> Bits: 800
+Bytes: 1024 -> Bits: 8192
+Bytes: 2048 -> Bits: 16384
+Bytes: 256 -> Bits: 2048
+Bytes: 2888 -> Bits: 23104
+BMI: 27,34

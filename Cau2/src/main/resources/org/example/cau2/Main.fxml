@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.cau2.MainController" prefWidth="600" prefHeight="400">
+
+    <!-- Bảng danh sách học sinh -->
+    <TableView fx:id="hocSinhTable" layoutX="20" layoutY="20" prefWidth="560" prefHeight="300">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="50" />
+            <TableColumn fx:id="hoTenColumn" text="Họ Tên" prefWidth="150" />
+            <TableColumn fx:id="ngaySinhColumn" text="Ngày Sinh" prefWidth="100" />
+            <TableColumn fx:id="lopColumn" text="Lớp" prefWidth="80" />
+            <TableColumn fx:id="diaChiColumn" text="Địa chỉ" prefWidth="180" />
+        </columns>
+    </TableView>
+
+    <!-- HBox chứa các nút thao tác -->
+    <HBox spacing="10" layoutX="20" layoutY="340">
+        <Button onAction="#handleAdd" text="Thêm Học Sinh" prefWidth="100" />
+        <Button onAction="#handleDelete" text="Xóa Học Sinh" prefWidth="100" />
+        <Button onAction="#handleEdit" text="Sửa Học Sinh" prefWidth="100" />
+    </HBox>
+</AnchorPane>

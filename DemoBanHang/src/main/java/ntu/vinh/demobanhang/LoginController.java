@@ -16,7 +16,7 @@ public class LoginController {
   }
   @FXML
   public void handleLogin(){
-    String username =
+    String username
   }
 
 }

@@ -16,13 +16,12 @@
 
     <!-- Operation selection -->
     <HBox spacing="10" alignment="CENTER">
-        <ToggleGroup fx:id="operationGroup" />
-        <RadioButton fx:id="rbAdd" text="+" toggleGroup="$operationGroup" />
-        <RadioButton fx:id="rbSubtract" text="-" toggleGroup="$operationGroup" />
-        <RadioButton fx:id="rbMultiply" text="*" toggleGroup="$operationGroup" />
-        <RadioButton fx:id="rbDivide" text="/" toggleGroup="$operationGroup" />
+        <RadioButton fx:id="rbAdd" text="+" />
+        <RadioButton fx:id="rbSubtract" text="-" />
+        <RadioButton fx:id="rbMultiply" text="*" />
+        <RadioButton fx:id="rbDivide" text="/" />
     </HBox>
-    ```
+
 
     <!-- Action button -->
     <Button text="Calculate" onAction="#handleCalculate" />

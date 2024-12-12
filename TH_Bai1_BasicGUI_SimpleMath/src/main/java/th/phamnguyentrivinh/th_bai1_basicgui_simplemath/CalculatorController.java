@@ -25,8 +25,15 @@ public class CalculatorController {
 
   @FXML
   private Label lblResult;
+  @FXML
+  private ToggleGroup operationGroup;
 
   public void handleCalculate() {
+    operationGroup = new ToggleGroup();
+    rbAdd.setToggleGroup(operationGroup);
+    rbSubtract.setToggleGroup(operationGroup);
+    rbMultiply.setToggleGroup(operationGroup);
+    rbDivide.setToggleGroup(operationGroup);
     try {
       double numberA = Double.parseDouble(txtNumberA.getText());
       double numberB = Double.parseDouble(txtNumberB.getText());

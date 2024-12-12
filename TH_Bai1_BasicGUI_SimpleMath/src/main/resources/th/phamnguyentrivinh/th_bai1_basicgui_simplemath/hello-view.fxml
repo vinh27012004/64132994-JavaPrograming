@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="th.phamnguyentrivinh.th_bai1_basicgui_simplemath.CalculatorController">
+    <padding>
+        <Insets bottom="15" left="15" right="15" top="15" />
+    </padding>
+
+    <HBox alignment="CENTER" spacing="10">
+        <TextField fx:id="txtNumberA" promptText="Nhập A" />
+        <TextField fx:id="txtNumberB" promptText="Nhập A" />
+    </HBox>
+
+
+    <HBox spacing="10" alignment="CENTER">
+        <RadioButton fx:id="rbAdd" text="+" toggleGroup="$operationGroup" />
+        <RadioButton fx:id="rbSubtract" text="-" toggleGroup="$operationGroup" />
+        <RadioButton fx:id="rbMultiply" text="*" toggleGroup="$operationGroup" />
+        <RadioButton fx:id="rbDivide" text="/" toggleGroup="$operationGroup" />
+    </HBox>
+
+    <Button onAction="#handleCalculate" text="Tính" />
+
+
+    <Label fx:id="lblResult" text="Kết quả: " />
+</VBox>

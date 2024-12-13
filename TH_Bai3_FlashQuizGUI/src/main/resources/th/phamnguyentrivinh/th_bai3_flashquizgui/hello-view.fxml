@@ -45,14 +45,14 @@
                 <Label layoutX="248.0" layoutY="279.0" style="-fx-font-size: 16; -fx-font-weight: bold;" text="Điểm: 0" />
 
                 <!-- Bốn lựa chọn câu trả lời -->
-                <Label layoutX="280.0" layoutY="88.0" text="A." style="-fx-font-size: 14; -fx-font-weight: bold;" />
-                <Button layoutX="17.0" layoutY="169.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 1" />
-                <Label layoutX="280.0" layoutY="128.0" text="B." style="-fx-font-size: 14; -fx-font-weight: bold;" />
-                <Button layoutX="17.0" layoutY="215.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 2" />
-                <Label layoutX="280.0" layoutY="168.0" text="C." style="-fx-font-size: 14; -fx-font-weight: bold;" />
-                <Button layoutX="17.0" layoutY="262.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 3" />
-                <Label layoutX="280.0" layoutY="208.0" text="D." style="-fx-font-size: 14; -fx-font-weight: bold;" />
-                <Button layoutX="17.0" layoutY="306.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 4" />
+                <Label layoutX="9.0" layoutY="178.0" style="-fx-font-size: 14; -fx-font-weight: bold;" text="A." />
+                <Button layoutX="28.0" layoutY="173.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 1" />
+                <Label layoutX="8.0" layoutY="218.0" style="-fx-font-size: 14; -fx-font-weight: bold;" text="B." />
+                <Button layoutX="28.0" layoutY="213.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 2" />
+                <Label layoutX="8.0" layoutY="256.0" style="-fx-font-size: 14; -fx-font-weight: bold;" text="C." />
+                <Button layoutX="28.0" layoutY="251.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 3" />
+                <Label layoutX="7.0" layoutY="295.0" style="-fx-font-size: 14; -fx-font-weight: bold;" text="D." />
+                <Button layoutX="28.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Lựa chọn 4" />
             </children>
         </AnchorPane>
     </items>

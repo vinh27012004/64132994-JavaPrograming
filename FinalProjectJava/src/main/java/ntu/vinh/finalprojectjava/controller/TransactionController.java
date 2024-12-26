@@ -4,8 +4,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import ntu.vinh.finalprojectjava.Main;
 import ntu.vinh.finalprojectjava.models.Transaction;
 import ntu.vinh.finalprojectjava.services_BLL.TransactionService;
+
+import java.io.IOException;
 
 public class TransactionController {
   @FXML
@@ -35,10 +38,7 @@ public class TransactionController {
   }
 
   @FXML
-  private void handleAddTransaction() {
-    Transaction newTransaction = new Transaction(3, "Shopping", 300000, "2024-12-03", "Clothes");
-    transactionService.addTransaction(newTransaction);
-    transactionTable.getItems().add(newTransaction);
+  private void handleAddTransaction() throws IOException {
+    Main.switchScene("add-transaction.fxml");
   }
 }
-

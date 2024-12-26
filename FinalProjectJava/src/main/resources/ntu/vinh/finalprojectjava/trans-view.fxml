@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns:fx="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
             fx:controller="ntu.vinh.finalprojectjava.controller.TransactionController">
     <Label text="Quản lý Giao Dịch" styleClass="label" layoutX="20" layoutY="20"/>
     <TableView fx:id="transactionTable" layoutX="20" layoutY="60" prefWidth="760" prefHeight="400">
@@ -17,6 +17,5 @@
             <TableColumn text="Mô tả" fx:id="descriptionColumn" prefWidth="200"/>
         </columns>
     </TableView>
-    <Button text="Thêm Giao Dịch" layoutX="660" layoutY="480" onAction="#handleAddTransaction" styleClass="button"/>
+    <Button text="Thêm Giao Dịch" layoutX="660" layoutY="480" onAction="#handleAddTransaction"/>
 </AnchorPane>
-

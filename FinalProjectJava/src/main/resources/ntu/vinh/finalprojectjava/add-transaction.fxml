@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="282.0" prefWidth="197.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="ntu.vinh.finalprojectjava.controller.AddTransactionController">
+    <Label layoutX="20" layoutY="20" text="Thêm Giao Dịch" />
+    <ComboBox fx:id="categoryComboBox" layoutX="20" layoutY="60" promptText="Danh mục" />
+    <TextField fx:id="amountField" layoutX="20" layoutY="100" promptText="Số tiền" />
+    <TextField fx:id="dateField" layoutX="20" layoutY="140" promptText="Ngày" />
+    <TextField fx:id="descriptionField" layoutX="20" layoutY="180" promptText="Mô tả" />
+    <Button layoutX="20" layoutY="220" onAction="#handleSaveTransaction" text="Lưu" />
+    <Button layoutX="100" layoutY="220" onAction="#handleBack" text="Quay lại" />
+</AnchorPane>

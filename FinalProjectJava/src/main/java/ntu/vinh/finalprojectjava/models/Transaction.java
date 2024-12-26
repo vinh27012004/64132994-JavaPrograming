@@ -2,19 +2,20 @@ package ntu.vinh.finalprojectjava.models;
 
 public class Transaction {
   private int id;
-  private String category;
+  private int categoryId;
   private double amount;
   private String date;
   private String description;
 
-  public Transaction(int id, String category, double amount, String date, String description) {
+  public Transaction(int id, int categoryId, double amount, String date, String description) {
     this.id = id;
-    this.category = category;
+    this.categoryId = categoryId;
     this.amount = amount;
     this.date = date;
     this.description = description;
   }
 
+  // Getters and setters
   public int getId() {
     return id;
   }
@@ -23,12 +24,12 @@ public class Transaction {
     this.id = id;
   }
 
-  public String getCategory() {
-    return category;
+  public int getCategoryId() {
+    return categoryId;
   }
 
-  public void setCategory(String category) {
-    this.category = category;
+  public void setCategoryId(int categoryId) {
+    this.categoryId = categoryId;
   }
 
   public double getAmount() {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="201.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ntu.vinh.finalprojectjava.controller.AddCategoryController">
+    <Label layoutX="20" layoutY="20" text="Thêm Danh Mục" />
+    <TextField fx:id="nameField" layoutX="20" layoutY="60" promptText="Tên danh mục" />
+    <TextField fx:id="descriptionField" layoutX="20" layoutY="100" promptText="Mô tả" />
+    <Button layoutX="20" layoutY="140" onAction="#handleSaveCategory" text="Lưu" />
+    <Button layoutX="100" layoutY="140" onAction="#handleBack" text="Quay lại" />
+</AnchorPane>

@@ -4,11 +4,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import ntu.vinh.finalprojectjava.models.DatabaseConnection;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
 
 public class Main extends Application {
   private static Stage primaryStage;
@@ -16,7 +13,7 @@ public class Main extends Application {
   @Override
   public void start(Stage stage) throws IOException {
     primaryStage = stage;
-    switchScene("trans-view.fxml");
+    switchScene("/ntu/vinh/finalprojectjava/trans-view.fxml");
     stage.setTitle("Quản lý Chi tiêu");
     stage.show();
   }

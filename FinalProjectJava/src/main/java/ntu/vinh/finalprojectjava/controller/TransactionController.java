@@ -9,6 +9,7 @@ import ntu.vinh.finalprojectjava.models.Transaction;
 import ntu.vinh.finalprojectjava.services_BLL.TransactionService;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class TransactionController {
   @FXML
@@ -26,10 +27,13 @@ public class TransactionController {
 
   private final TransactionService transactionService = new TransactionService();
 
+  public TransactionController() throws SQLException {
+  }
+
   @FXML
-  public void initialize() {
+  public void initialize() throws SQLException {
     idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
-    categoryColumn.setCellValueFactory(new PropertyValueFactory<>("category"));
+    categoryColumn.setCellValueFactory(new PropertyValueFactory<>("categoryName"));
     amountColumn.setCellValueFactory(new PropertyValueFactory<>("amount"));
     dateColumn.setCellValueFactory(new PropertyValueFactory<>("date"));
     descriptionColumn.setCellValueFactory(new PropertyValueFactory<>("description"));
@@ -40,5 +44,15 @@ public class TransactionController {
   @FXML
   private void handleAddTransaction() throws IOException {
     Main.switchScene("add-transaction.fxml");
+  }
+
+  @FXML
+  private void handleAddCategory() throws IOException {
+    Main.switchScene("add-category.fxml");
+  }
+  public void handleDeleteTransaction() throws SQLException {
+    Transaction transaction = transactionTable.getSelectionModel().getSelectedItem();
+    transactionService.deleteTransaction(transaction);
+    transactionTable.getItems().remove(transaction);
   }
 }

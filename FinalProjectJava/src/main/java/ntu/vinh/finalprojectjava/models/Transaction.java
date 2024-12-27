@@ -1,18 +1,23 @@
 package ntu.vinh.finalprojectjava.models;
 
+import java.time.LocalDate;
+
 public class Transaction {
   private int id;
   private int categoryId;
   private double amount;
-  private String date;
+  private LocalDate date;
   private String description;
+  private String categoryName;
 
-  public Transaction(int id, int categoryId, double amount, String date, String description) {
+  // Constructor
+  public Transaction(int id, int categoryId, double amount, LocalDate date, String description, String categoryName) {
     this.id = id;
     this.categoryId = categoryId;
     this.amount = amount;
     this.date = date;
     this.description = description;
+    this.categoryName = categoryName;
   }
 
   // Getters and setters
@@ -40,11 +45,11 @@ public class Transaction {
     this.amount = amount;
   }
 
-  public String getDate() {
+  public LocalDate getDate() {
     return date;
   }
 
-  public void setDate(String date) {
+  public void setDate(LocalDate date) {
     this.date = date;
   }
 
@@ -54,5 +59,13 @@ public class Transaction {
 
   public void setDescription(String description) {
     this.description = description;
+  }
+
+  public String getCategoryName() {
+    return categoryName;
+  }
+
+  public void setCategoryName(String categoryName) {
+    this.categoryName = categoryName;
   }
 }

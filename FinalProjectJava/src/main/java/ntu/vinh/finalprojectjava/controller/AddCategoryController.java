@@ -27,11 +27,11 @@ public class AddCategoryController {
 
     Category newCategory = new Category(0, name, description);
     categoryService.addCategory(newCategory);
-    Main.switchScene("category-view.fxml");
+    Main.switchScene("/ntu/vinh/finalprojectjava/trans-view.fxml");
   }
 
   @FXML
   private void handleBack() throws IOException {
-    Main.switchScene("category-view.fxml");
+    Main.switchScene("/ntu/vinh/finalprojectjava/trans-view.fxml");
   }
 }

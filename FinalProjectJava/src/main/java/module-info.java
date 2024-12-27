@@ -5,6 +5,8 @@ module ntu.vinh.finalprojectjava {
 
   opens ntu.vinh.finalprojectjava to javafx.fxml;
   opens ntu.vinh.finalprojectjava.controller to javafx.fxml;
+  opens ntu.vinh.finalprojectjava.models to javafx.base; // Add this line
 
   exports ntu.vinh.finalprojectjava;
+  exports ntu.vinh.finalprojectjava.controller;
 }

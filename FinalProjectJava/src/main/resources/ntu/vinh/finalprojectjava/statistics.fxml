@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ntu.vinh.finalprojectjava.controller.StatiticsController">
+    <Label text="Thống kê giao dịch theo tháng" layoutX="20" layoutY="20" styleClass="header"/>
+    <TableView fx:id="statisticsTable" layoutX="20" layoutY="60" prefWidth="760" prefHeight="400">
+        <columns>
+            <TableColumn text="Danh mục" fx:id="categoryColumn" prefWidth="150"/>
+            <TableColumn text="Tháng" fx:id="monthColumn" prefWidth="100"/>
+            <TableColumn text="Tổng số tiền" fx:id="totalAmountColumn" prefWidth="150"/>
+        </columns>
+    </TableView>
+    <Button text="Làm mới" layoutX="660" layoutY="480" onAction="#refreshStatistics" styleClass="button"/>
+    <BarChart fx:id="categoryBarChart" layoutX="20" layoutY="480" prefWidth="760" prefHeight="300">
+        <xAxis>
+            <CategoryAxis fx:id="xAxis" label="Danh mục"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="yAxis" label="Tổng số tiền"/>
+        </yAxis>
+    </BarChart>
+</AnchorPane>

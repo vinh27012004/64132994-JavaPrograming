@@ -20,4 +20,5 @@
     <Button layoutX="660" layoutY="480" onAction="#handleAddTransaction" text="Thêm Giao Dịch" />
     <Button layoutX="540" layoutY="480" onAction="#handleAddCategory" text="Thêm Danh Mục" />
    <Button layoutX="490.0" layoutY="480.0" onAction="#handleDeleteTransaction" text="Xóa" />
+    <Button layoutX="410.0" layoutY="480.0" onAction="#handleStaticTransaction" text="Thống kê" />
 </AnchorPane>

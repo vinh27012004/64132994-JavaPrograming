@@ -55,4 +55,8 @@ public class TransactionController {
     transactionService.deleteTransaction(transaction);
     transactionTable.getItems().remove(transaction);
   }
+
+  public void handleStaticTransaction() throws IOException {
+    Main.switchScene("statistics.fxml");
+  }
 }

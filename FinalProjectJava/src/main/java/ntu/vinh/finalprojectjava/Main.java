@@ -20,8 +20,9 @@ public class Main extends Application {
 
   public static void switchScene(String fxml) throws IOException {
     FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(fxml));
-    Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+    Scene scene = new Scene(fxmlLoader.load());
     primaryStage.setScene(scene);
+    primaryStage.sizeToScene();
   }
 
   public static void main(String[] args) {

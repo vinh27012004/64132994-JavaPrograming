@@ -1,10 +1,7 @@
 package ntu.vinh.finalprojectjava.controller;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import ntu.vinh.finalprojectjava.Main;
 import ntu.vinh.finalprojectjava.models.Category;
 import ntu.vinh.finalprojectjava.models.Transaction;
@@ -13,8 +10,11 @@ import ntu.vinh.finalprojectjava.services_BLL.TransactionService;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Locale;
+import java.util.function.UnaryOperator;
 
 public class AddTransactionController {
   @FXML

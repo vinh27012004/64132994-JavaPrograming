@@ -1,5 +1,6 @@
 package ntu.vinh.finalprojectjava.services_BLL;
 
+import ntu.vinh.finalprojectjava.models.Statistic;
 import ntu.vinh.finalprojectjava.models.Transaction;
 import ntu.vinh.finalprojectjava.models.DatabaseConnection;
 

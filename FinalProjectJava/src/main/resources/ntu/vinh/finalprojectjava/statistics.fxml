@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.chart.CategoryAxis?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.chart.BarChart?>
-<?import javafx.scene.chart.NumberAxis?>
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ntu.vinh.finalprojectjava.controller.StatiticsController">
-    <Label text="Thống kê giao dịch theo tháng" layoutX="20" layoutY="20" styleClass="header"/>
-    <TableView fx:id="statisticsTable" layoutX="20" layoutY="60" prefWidth="760" prefHeight="400">
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ntu.vinh.finalprojectjava.controller.StatisticsController">
+    <Label layoutX="20" layoutY="20" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Statistics" />
+    <Label layoutX="20" layoutY="60" styleClass="header" text="Thống kê giao dịch theo tháng" />
+    <ComboBox fx:id="categoryComboBox" layoutX="20" layoutY="100" prefWidth="200" promptText="Chọn danh mục" />
+    <ComboBox fx:id="monthComboBox" layoutX="240" layoutY="100" prefWidth="200" promptText="Chọn tháng" />
+    <TableView fx:id="statisticsTable" layoutX="20" layoutY="140" prefHeight="400" prefWidth="420.0">
         <columns>
-            <TableColumn text="Danh mục" fx:id="categoryColumn" prefWidth="150"/>
-            <TableColumn text="Tháng" fx:id="monthColumn" prefWidth="100"/>
-            <TableColumn text="Tổng số tiền" fx:id="totalAmountColumn" prefWidth="150"/>
+            <TableColumn fx:id="categoryColumn" prefWidth="150" text="Danh mục" />
+            <TableColumn fx:id="monthColumn" prefWidth="100" text="Tháng" />
+            <TableColumn fx:id="totalAmountColumn" prefWidth="150" text="Tổng số tiền" />
         </columns>
     </TableView>
-    <Button text="Làm mới" layoutX="660" layoutY="480" onAction="#refreshStatistics" styleClass="button"/>
-    <BarChart fx:id="categoryBarChart" layoutX="20" layoutY="480" prefWidth="760" prefHeight="300">
+    <Button layoutX="728.0" layoutY="77.0" onAction="#refreshStatistics" styleClass="button" text="Làm mới" />
+    <BarChart fx:id="categoryBarChart" layoutX="442.0" layoutY="109.0" prefHeight="432.0" prefWidth="571.0">
         <xAxis>
-            <CategoryAxis fx:id="xAxis" label="Danh mục"/>
+            <CategoryAxis label="Danh mục" fx:id="xAxis" />
         </xAxis>
         <yAxis>
-            <NumberAxis fx:id="yAxis" label="Tổng số tiền"/>
+            <NumberAxis fx:id="yAxis" label="Tổng số tiền" />
         </yAxis>
     </BarChart>
+    <Button layoutX="440.0" layoutY="562.0" onAction="#handleBack" text="Quay Lại" />
 </AnchorPane>

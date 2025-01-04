@@ -19,7 +19,7 @@
     <Button layoutX="728.0" layoutY="77.0" onAction="#refreshStatistics" styleClass="button" text="Làm mới" />
     <BarChart fx:id="categoryBarChart" layoutX="442.0" layoutY="109.0" prefHeight="432.0" prefWidth="571.0">
         <xAxis>
-            <CategoryAxis label="Danh mục" fx:id="xAxis" />
+            <CategoryAxis fx:id="xAxis" label="Danh mục" />
         </xAxis>
         <yAxis>
             <NumberAxis fx:id="yAxis" label="Tổng số tiền" />

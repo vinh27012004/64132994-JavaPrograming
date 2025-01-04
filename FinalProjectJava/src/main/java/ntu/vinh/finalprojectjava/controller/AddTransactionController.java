@@ -5,16 +5,13 @@ import javafx.scene.control.*;
 import ntu.vinh.finalprojectjava.Main;
 import ntu.vinh.finalprojectjava.models.Category;
 import ntu.vinh.finalprojectjava.models.Transaction;
-import ntu.vinh.finalprojectjava.services_BLL.CategoryService;
-import ntu.vinh.finalprojectjava.services_BLL.TransactionService;
+import ntu.vinh.finalprojectjava.services_BLL.CategoryBLL;
+import ntu.vinh.finalprojectjava.services_BLL.TransactionBLL;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Locale;
-import java.util.function.UnaryOperator;
 
 public class AddTransactionController {
   @FXML
@@ -26,8 +23,8 @@ public class AddTransactionController {
   @FXML
   private TextField descriptionField;
 
-  private final TransactionService transactionService = new TransactionService();
-  private final CategoryService categoryService = new CategoryService();
+  private final TransactionBLL transactionService = new TransactionBLL();
+  private final CategoryBLL categoryService = new CategoryBLL();
 
   public AddTransactionController() throws SQLException {
   }

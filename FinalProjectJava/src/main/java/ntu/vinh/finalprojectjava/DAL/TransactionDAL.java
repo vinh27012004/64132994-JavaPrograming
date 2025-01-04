@@ -1,6 +1,5 @@
-package ntu.vinh.finalprojectjava.services_BLL;
+package ntu.vinh.finalprojectjava.DAL;
 
-import ntu.vinh.finalprojectjava.models.Statistic;
 import ntu.vinh.finalprojectjava.models.Transaction;
 import ntu.vinh.finalprojectjava.models.DatabaseConnection;
 
@@ -12,18 +11,22 @@ import java.util.ArrayList;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class TransactionService {
+public class TransactionDAL {
   private final Connection connection;
 
-  public TransactionService() throws SQLException {
+  public TransactionDAL() throws SQLException {
     this.connection = DatabaseConnection.getConnection();
   }
+
+  public TransactionDAL(Connection connection) {
+    this.connection = connection;
+  }
+
   private Integer getRecycledId() throws SQLException {
     String query = "SELECT ID FROM RecycledIds ORDER BY ID ASC LIMIT 1";
     try (Statement stmt = connection.createStatement(); ResultSet rs = stmt.executeQuery(query)) {
       if (rs.next()) {
         int id = rs.getInt("ID");
-        // Xóa ID khỏi bảng RecycledIds sau khi sử dụng
         try (PreparedStatement deleteStmt = connection.prepareStatement("DELETE FROM RecycledIds WHERE ID = ?")) {
           deleteStmt.setInt(1, id);
           deleteStmt.executeUpdate();
@@ -31,7 +34,7 @@ public class TransactionService {
         return id;
       }
     }
-    return null; // Không có ID trống
+    return null;
   }
 
   public void addTransaction(Transaction transaction) throws SQLException {
@@ -39,7 +42,6 @@ public class TransactionService {
     String query;
 
     if (recycledId != null) {
-      // Sử dụng ID trống
       query = "INSERT INTO Transaction (ID, CategoryID, Amount, Date, Description) VALUES (?, ?, ?, ?, ?)";
       try (PreparedStatement stmt = connection.prepareStatement(query)) {
         stmt.setInt(1, recycledId);
@@ -50,7 +52,6 @@ public class TransactionService {
         stmt.executeUpdate();
       }
     } else {
-      // Không có ID trống, thêm bình thường
       query = "INSERT INTO Transaction (CategoryID, Amount, Date, Description) VALUES (?, ?, ?, ?)";
       try (PreparedStatement stmt = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
         stmt.setInt(1, transaction.getCategoryId());
@@ -81,20 +82,16 @@ public class TransactionService {
     return transactions;
   }
 
-  public void deleteTransaction(Transaction transaction) {
+  public void deleteTransaction(int transactionId) throws SQLException {
     String deleteQuery = "DELETE FROM Transaction WHERE ID = ?";
     String recycleQuery = "INSERT INTO RecycledIds (ID) VALUES (?)";
     try (PreparedStatement deleteStmt = connection.prepareStatement(deleteQuery);
          PreparedStatement recycleStmt = connection.prepareStatement(recycleQuery)) {
-      // Xóa giao dịch
-      deleteStmt.setInt(1, transaction.getId());
+      deleteStmt.setInt(1, transactionId);
       deleteStmt.executeUpdate();
 
-      // Thêm ID vào danh sách tái sử dụng
-      recycleStmt.setInt(1, transaction.getId());
+      recycleStmt.setInt(1, transactionId);
       recycleStmt.executeUpdate();
-    } catch (SQLException e) {
-      e.printStackTrace();
     }
   }
 }

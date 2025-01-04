@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import ntu.vinh.finalprojectjava.Main;
 import ntu.vinh.finalprojectjava.models.Category;
-import ntu.vinh.finalprojectjava.services_BLL.CategoryService;
+import ntu.vinh.finalprojectjava.services_BLL.CategoryBLL;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -15,7 +15,7 @@ public class AddCategoryController {
   @FXML
   private TextField descriptionField;
 
-  private final CategoryService categoryService = new CategoryService();
+  private final CategoryBLL categoryService = new CategoryBLL();
 
   public AddCategoryController() throws SQLException {
   }

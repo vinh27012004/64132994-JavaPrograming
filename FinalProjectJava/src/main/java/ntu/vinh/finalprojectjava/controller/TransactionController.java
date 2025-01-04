@@ -6,7 +6,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import ntu.vinh.finalprojectjava.Main;
 import ntu.vinh.finalprojectjava.models.Transaction;
-import ntu.vinh.finalprojectjava.services_BLL.TransactionService;
+import ntu.vinh.finalprojectjava.services_BLL.TransactionBLL;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -25,7 +25,7 @@ public class TransactionController {
   @FXML
   private TableColumn<Transaction, String> descriptionColumn;
 
-  private final TransactionService transactionService = new TransactionService();
+  private final TransactionBLL transactionService = new TransactionBLL();
 
   public TransactionController() throws SQLException {
   }

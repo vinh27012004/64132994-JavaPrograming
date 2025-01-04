@@ -1,4 +1,4 @@
-package ntu.vinh.finalprojectjava.services_BLL;
+package ntu.vinh.finalprojectjava.DAL;
 
 import ntu.vinh.finalprojectjava.models.DatabaseConnection;
 import ntu.vinh.finalprojectjava.models.Statistic;
@@ -10,10 +10,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StatisticsService{
+public class StatisticsDAL {
   private final Connection connection;
 
-  public StatisticsService() throws SQLException {
+  public StatisticsDAL() throws SQLException {
     this.connection = DatabaseConnection.getConnection();
   }
 

@@ -1,7 +1,7 @@
 package ntu.vinh.finalprojectjava.DAL;
 
 import ntu.vinh.finalprojectjava.models.Category;
-import ntu.vinh.finalprojectjava.models.DatabaseConnection;
+import ntu.vinh.finalprojectjava.untils.DatabaseConnection;
 
 import java.sql.*;
 import java.util.ArrayList;

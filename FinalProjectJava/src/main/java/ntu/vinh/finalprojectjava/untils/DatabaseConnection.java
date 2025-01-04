@@ -1,4 +1,4 @@
-package ntu.vinh.finalprojectjava.models;
+package ntu.vinh.finalprojectjava.untils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

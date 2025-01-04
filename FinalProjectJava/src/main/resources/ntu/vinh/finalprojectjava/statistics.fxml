@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ntu.vinh.finalprojectjava.controller.StatisticsController">
-    <Label layoutX="20" layoutY="20" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Statistics" />
+    <Label layoutX="20" layoutY="20" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Thống kê giao dịch" />
     <Label layoutX="20" layoutY="60" styleClass="header" text="Thống kê giao dịch theo tháng" />
     <ComboBox fx:id="categoryComboBox" layoutX="20" layoutY="100" prefWidth="200" promptText="Chọn danh mục" />
     <ComboBox fx:id="monthComboBox" layoutX="240" layoutY="100" prefWidth="200" promptText="Chọn tháng" />

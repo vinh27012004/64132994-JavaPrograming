@@ -9,4 +9,5 @@ module ntu.vinh.finalprojectjava {
 
   exports ntu.vinh.finalprojectjava;
   exports ntu.vinh.finalprojectjava.controller;
+  opens ntu.vinh.finalprojectjava.untils to javafx.base;
 }

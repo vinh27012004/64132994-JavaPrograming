@@ -1,6 +1,6 @@
 package ntu.vinh.finalprojectjava.DAL;
 
-import ntu.vinh.finalprojectjava.models.DatabaseConnection;
+import ntu.vinh.finalprojectjava.untils.DatabaseConnection;
 import ntu.vinh.finalprojectjava.models.Statistic;
 
 import java.sql.Connection;

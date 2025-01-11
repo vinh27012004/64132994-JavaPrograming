@@ -37,7 +37,6 @@ public class TransactionController {
     amountColumn.setCellValueFactory(new PropertyValueFactory<>("amount"));
     dateColumn.setCellValueFactory(new PropertyValueFactory<>("date"));
     descriptionColumn.setCellValueFactory(new PropertyValueFactory<>("description"));
-
     transactionTable.getItems().addAll(transactionService.getTransactions());
   }
 

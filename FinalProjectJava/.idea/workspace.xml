@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bac5367-7fac-44e5-948c-c09312dfe1fc" name="Changes" comment="update last">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/DAL/CategoryDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/DAL/CategoryDAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/DAL/StatisticsDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/DAL/StatisticsDAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/DAL/TransactionDAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/DAL/TransactionDAL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/controller/AddCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/controller/AddCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/controller/AddTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/controller/AddTransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/controller/StatisticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/controller/StatisticsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/controller/TransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/models/Statistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/models/Statistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/models/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/services_BLL/CategoryBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/services_BLL/CategoryBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/services_BLL/StatisticsBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/services_BLL/StatisticsBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/services_BLL/TransactionBLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/services_BLL/TransactionBLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ntu/vinh/finalprojectjava/untils/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/java/ntu/vinh/finalprojectjava/untils/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ntu/vinh/finalprojectjava/StyleTrans.css" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/resources/ntu/vinh/finalprojectjava/StyleTrans.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ntu/vinh/finalprojectjava/add-category.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/resources/ntu/vinh/finalprojectjava/add-category.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ntu/vinh/finalprojectjava/add-transaction.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/resources/ntu/vinh/finalprojectjava/add-transaction.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ntu/vinh/finalprojectjava/statistics.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/resources/ntu/vinh/finalprojectjava/statistics.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ntu/vinh/finalprojectjava/trans-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuanLyChiTieu/src/main/resources/ntu/vinh/finalprojectjava/trans-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vinh27012004&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vinh27012004/64132994-JavaPrograming.git&quot;,
+    &quot;accountId&quot;: &quot;86a222b8-8304-47a5-8c8a-bf76dcc9f026&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pC7U6q7j7t7PFx6DYJq2Lf270g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/CODE/JAVA/64132994-JavaPrograming/FinalProjectJava/src/main/java/ntu/vinh/finalprojectjava",
+    "last_opened_file_path": "D:/CODE/JAVA/64132994-JavaPrograming/QuanLyChiTieu",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37126437"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\JAVA\64132994-JavaPrograming\FinalProjectJava\src\main\resources\ntu\vinh\finalprojectjava" />
+      <recent name="D:\CODE\JAVA\64132994-JavaPrograming\FinalProjectJava\src\main\resources\ntu\vinh\finalprojectjava\css" />
+      <recent name="D:\CODE\JAVA\64132994-JavaPrograming\FinalProjectJava\src\main\resources\ntu\vinh\finalprojectjava\controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ntu.vinh.finalprojectjava" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bac5367-7fac-44e5-948c-c09312dfe1fc" name="Changes" comment="" />
+      <created>1732258218422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732258218422</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Phân tầng dự án">
+      <option name="closed" value="true" />
+      <created>1732867643659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732867643659</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BLL - DAL (Transaction)">
+      <option name="closed" value="true" />
+      <created>1732869784100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732869784100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BLL - DAL (Transaction)">
+      <option name="closed" value="true" />
+      <created>1735109906871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735109906871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update trang thêm danh mục + trang thêm giao dịch và controller">
+      <option name="closed" value="true" />
+      <created>1735234806393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735234806393</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cập nhật sau khi xóa một giao dịch thì thêm giao dịch khác với id giao dịch đó,">
+      <option name="closed" value="true" />
+      <created>1735332298314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735332298314</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cập nhật sau khi xóa một giao dịch thì thêm giao dịch khác với id giao dịch đó,">
+      <option name="closed" value="true" />
+      <created>1735332310034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735332310034</updated>
+    </task>
+    <task id="LOCAL-00007" summary="thêm giao diện thống kê giao dịch từng tháng">
+      <option name="closed" value="true" />
+      <created>1735411938375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735411938375</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update statistic">
+      <option name="closed" value="true" />
+      <created>1735841915457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735841915457</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update lại tổ chức hệ thống update lại statistic">
+      <option name="closed" value="true" />
+      <created>1735964551410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735964551410</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update last">
+      <option name="closed" value="true" />
+      <created>1735967537302</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735967537302</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Phân tầng dự án" />
+    <MESSAGE value="BLL - DAL (Transaction)" />
+    <MESSAGE value="update trang thêm danh mục + trang thêm giao dịch và controller" />
+    <MESSAGE value="cập nhật sau khi xóa một giao dịch thì thêm giao dịch khác với id giao dịch đó," />
+    <MESSAGE value="thêm thống kê giao dịch từng tháng" />
+    <MESSAGE value="thêm giao diện thống kê giao dịch từng tháng" />
+    <MESSAGE value="update statistic" />
+    <MESSAGE value="Update lại tổ chức hệ thống update lại statistic" />
+    <MESSAGE value="update last" />
+    <option name="LAST_COMMIT_MESSAGE" value="update last" />
+  </component>
+</project>

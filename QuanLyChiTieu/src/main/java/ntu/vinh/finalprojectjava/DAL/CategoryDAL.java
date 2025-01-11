@@ -17,7 +17,9 @@ public class CategoryDAL {
   public List<Category> getAllCategories() throws SQLException {
     List<Category> categories = new ArrayList<>();
     String query = "SELECT * FROM Category";
-    try (Statement stmt = connection.createStatement(); ResultSet rs = stmt.executeQuery(query)) {
+    try (Statement stmt = connection.createStatement();
+         ResultSet rs = stmt.executeQuery(query))
+    {
       while (rs.next()) {
         Category category = new Category(
             rs.getInt("ID"),

@@ -18,12 +18,8 @@ public class TransactionDAL {
     this.connection = DatabaseConnection.getConnection();
   }
 
-  public TransactionDAL(Connection connection) {
-    this.connection = connection;
-  }
-
   private Integer getRecycledId() throws SQLException {
-    String query = "SELECT ID FROM RecycledIds ORDER BY ID ASC LIMIT 1";
+    String query = "SELECT ID FROM RecycledIds ORDER BY ID ASC LIMIT 1"; // Chọn ID trong bảng recycledid nhỏ nhất
     try (Statement stmt = connection.createStatement(); ResultSet rs = stmt.executeQuery(query)) {
       if (rs.next()) {
         int id = rs.getInt("ID");

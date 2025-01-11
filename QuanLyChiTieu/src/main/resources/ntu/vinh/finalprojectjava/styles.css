@@ -1,0 +1,26 @@
+/* styles.css */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+}
+
+.table-view {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #cccccc; /* Light grey border */
+}
+
+.table-column-header {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+}
